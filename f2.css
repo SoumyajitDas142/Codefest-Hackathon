@@ -1,0 +1,22 @@
+body{
+    background: url("https://images.unsplash.com/photo-1612914073562-9f2e8272fea2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHN0dWRlbnQlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size:100%;
+    background-position: center;
+    padding-top: 2px;
+}
+
+.navbar{
+    color: white;
+}
+
+/* .navbar a:hover{
+    background: rgb(255, 255, 255);
+}
+
+.join:hover{
+    background: rgb(255, 255, 255);
+} */
+
+a{
+    color:white
+}

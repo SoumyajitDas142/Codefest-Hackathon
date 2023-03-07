@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Student SignUp
+	</title>
+    <link href="stu.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>WELCOME</h1>
+	<!-- Create Form -->
+    <div class="container">
+            <div class="left"></div>
+            <div class="mid">
+
+                <form id="form">
+                    <!-- Details -->
+                    <div class="form-control">
+                        <label for="name" id="label-name">
+                            Name
+                        </label>
+                    
+                        <!-- Input Type Text -->
+                        <input type="text"
+                            id="fname"
+                            name="fname"
+                            placeholder="Enter your name" 
+                            required/>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="role" id="label-role">
+                            Class
+                        </label>
+
+                        <!-- Dropdown options -->
+                        <select name="role" id="role">
+                            <option value="1">Class I</option>
+                            <option value="2">Class II</option>
+                            <option value="3">Class III</option>
+                            <option value="4">Class IV</option>
+                            <option value="5">Class V</option>
+                            <option value="6">Class VI</option>
+                            <option value="7">Class VII</option>
+                            <option value="8">Class VIII</option>
+                            <option value="9">Class IX</option>
+                            <option value="10">Class X</option>
+                            <option value="11">Class XI</option>
+                            <option value="12">Class XII</option>
+                        </select>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email" id="label-email">
+                            Age
+                        </label>
+                    
+                        <!-- Input Type Email-->
+                        <input type="email"
+                            id="email"
+                            placeholder="Enter your age" required/>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email" id="label-email">
+                            Phone Number
+                        </label>
+                    
+                        <!-- Input Type Email-->
+                        <input type="email"
+                            id="email"
+                            placeholder="Enter your phone number" required/>
+                    </div>
+                    
+                    <div class="form-control">
+                        <label for="email" id="label-email">
+                            Locality
+                        </label>
+            
+                        <!-- Input Type Email-->
+                        <input type="email"
+                            id="email"
+                            placeholder="Enter your locality" required/>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email" id="label-email">
+                            Email
+                        </label>
+            
+                        <!-- Input Type Email-->
+                        <input type="email"
+                            id="email"
+                            placeholder="Enter your email" required/>
+                    </div>
+
+            </div>
+        </form>
+
+            <div class="right">
+
+                <form id="form">
+            
+                    <div class="form-control">
+                        <label for="password" id="label-password">
+                            Password
+                        </label>
+            
+                        <!-- Input Type Text -->
+                        <input type="text"
+                            id="pass"
+                            placeholder="Enter password" />
+                    </div>
+            
+                    <div class="form-control">
+                        <label>
+                            Subject needed :-
+                        </label>
+            
+                        <!-- Input Type Radio Button -->
+                        <label for="recommend-1">
+                            <input type="radio"
+                                id="r"
+                                name="recommend">Physics</input>
+                        </label>
+                        <label for="recommend-2">
+                            <input type="radio"
+                                id="r"
+                                name="recommend">Chemistry</input>
+                        </label>
+                        <label for="recommend-3">
+                            <input type="radio"
+                                id="r"
+                                name="recommend">Mathematics</input>
+                        </label>
+                        <label for="recommend-4">
+                            <input type="radio"
+                                id="r"
+                                name="recommend">Biology</input>
+                        </label>
+                    </div>
+            
+                    <div class="form-control">
+                        <label for="comment">
+                            Any Questions?
+                        </label>
+                        <!-- multi-line text input control -->
+                        <textarea name="comment" id="comment"
+                            placeholder="Write down your questions">
+                        </textarea>
+                    </div>
+            
+                    <!-- Multi-line Text Input Control -->
+                    <button type="submit" value="submit">
+                        Submit
+                    </button>
+                </form>
+
+            </div>
+    </div>
+	
+</body>
+
+</html>
